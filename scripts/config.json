@@ -1,0 +1,88 @@
+{
+  "meteo": {
+    "ville": "Rennes",
+    "latitude": 48.1173,
+    "longitude": -1.6778,
+    "heure_matin": 8,
+    "heure_midi": 13,
+    "heure_soir": 19,
+    "trajet_matin": [7, 9],
+    "trajet_soir": [17, 19],
+    "seuil_gel_celsius": 1
+  },
+  "modeles_gemini": [
+    "gemini-3.8-flash",
+    "gemini-3.7-flash",
+    "gemini-3.6-flash",
+    "gemini-3.5-flash",
+    "gemini-3.5-flash-lite",
+    "gemini-3.1-flash-lite",
+    "gemini-2.5-flash",
+    "gemini-2.5-flash-lite"
+  ],
+  "fenetre_heures": 36,
+  "max_candidats_par_source": 8,
+  "mots_cles_cyber": "cyber|pirat|hack|fuite|ransom|ran[cç]on|faille|vuln[eé]rab|attaque|malware|logiciel malveillant|phishing|hame[cç]on|s[eé]curit|breach|leak|exploit|ddos|zero-day|0-day|apt|chiffrement|donn[eé]es personnelles|cnil|anssi",
+  "sources": [
+    {
+      "nom": "CERT-FR",
+      "mode": "all",
+      "urls": [
+        "https://www.cert.ssi.gouv.fr/alerte/feed/",
+        "https://www.cert.ssi.gouv.fr/actualite/feed/",
+        "https://www.cert.ssi.gouv.fr/cti/feed/"
+      ]
+    },
+    {
+      "nom": "BleepingComputer",
+      "mode": "first",
+      "urls": ["https://www.bleepingcomputer.com/feed/"]
+    },
+    {
+      "nom": "The Hacker News",
+      "mode": "first",
+      "urls": [
+        "https://feeds.feedburner.com/TheHackersNews",
+        "https://thehackernews.com/feeds/posts/default"
+      ]
+    },
+    {
+      "nom": "ZATAZ",
+      "mode": "first",
+      "urls": ["https://www.zataz.com/feed/"]
+    },
+    {
+      "nom": "Cyberattaque.org",
+      "mode": "first",
+      "urls": [
+        "https://cyberattaque.org/feed/",
+        "https://www.cyberattaque.org/feed/",
+        "https://cyberattaque.org/rss.xml"
+      ]
+    },
+    {
+      "nom": "Les Numériques",
+      "mode": "first",
+      "filtre_cyber": true,
+      "urls": [
+        "https://www.lesnumeriques.com/rss.xml",
+        "https://www.lesnumeriques.com/rss"
+      ]
+    },
+    {
+      "nom": "L’Usine Digitale",
+      "mode": "first",
+      "filtre_cyber": true,
+      "urls": [
+        "https://www.usine-digitale.fr/cybersecurite/rss",
+        "https://www.usine-digitale.fr/rss",
+        "https://www.usine-digitale.fr/rss.xml"
+      ]
+    },
+    {
+      "nom": "Help Net Security",
+      "mode": "first",
+      "urls": ["https://www.helpnetsecurity.com/feed/"]
+    }
+  ]
+}
