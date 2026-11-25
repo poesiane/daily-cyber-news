@@ -1,15 +1,46 @@
 {
   "notions": [
-    {"date": "2026-11-24", "titre": "Living off the Land (LotL)"}
+    {
+      "date": "2026-11-24",
+      "titre": "Living off the Land (LotL)"
+    },
+    {
+      "date": "2026-11-25",
+      "titre": "Shimcache (Application Compatibility Cache)"
+    }
   ],
   "reflexions": [
     {
       "date": "2026-11-24",
       "titre": "Quand une IA mène l’attaque, qui est responsable ?",
       "label": "responsabilité d’une cyberattaque menée par une IA autonome"
+    },
+    {
+      "date": "2026-11-25",
+      "titre": "L'informatique quantique condamne-t-elle le secret des données d'aujourd'hui ?",
+      "label": "Cryptographie post-quantique et confidentialité à long terme"
     }
   ],
   "news": [
-    {"date": "2026-11-24", "titre": "La Commission européenne cyberattaquée", "url": ""}
+    {
+      "date": "2026-11-24",
+      "titre": "La Commission européenne cyberattaquée",
+      "url": ""
+    },
+    {
+      "date": "2026-11-25",
+      "titre": "Intrusion au CHU de Bordeaux par ScarlettGroup",
+      "url": "https://www.zataz.com/chu-de-bordeaux-et-sig-sauer-cibles-par-scarlettgroup/"
+    },
+    {
+      "date": "2026-11-25",
+      "titre": "Faille RCE critique dans Drupal exploitée",
+      "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html"
+    },
+    {
+      "date": "2026-11-25",
+      "titre": "Vol de données bancaires à la DGAC",
+      "url": "https://www.cyberattaque.org/laviation-civile-dgac-piratee-des-donnees-bancaires-voles-sur-un-site-de-paiement-de-letat/"
+    }
   ]
 }
