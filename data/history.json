@@ -1,13 +1,8 @@
 {
   "notions": [
-    {
-      "date": "2026-11-24",
-      "titre": "Living off the Land (LotL)"
-    },
-    {
-      "date": "2026-11-25",
-      "titre": "Shimcache (Application Compatibility Cache)"
-    }
+    {"date": "2026-11-24", "titre": "Living off the Land (LotL)"},
+    {"date": "2026-11-25", "titre": "Honeytoken (jeton piège)"},
+    {"date": "2026-11-25", "titre": "Shimcache (Application Compatibility Cache)"}
   ],
   "reflexions": [
     {
@@ -17,16 +12,17 @@
     },
     {
       "date": "2026-11-25",
+      "titre": "Devoir moral de révéler un incident sans obligation légale",
+      "label": "devoir moral de révéler un incident sans obligation légale"
+    },
+    {
+      "date": "2026-11-25",
       "titre": "L'informatique quantique condamne-t-elle le secret des données d'aujourd'hui ?",
       "label": "Cryptographie post-quantique et confidentialité à long terme"
     }
   ],
   "news": [
-    {
-      "date": "2026-11-24",
-      "titre": "La Commission européenne cyberattaquée",
-      "url": ""
-    },
+    {"date": "2026-11-24", "titre": "La Commission européenne cyberattaquée", "url": ""},
     {
       "date": "2026-11-25",
       "titre": "Intrusion au CHU de Bordeaux par ScarlettGroup",
