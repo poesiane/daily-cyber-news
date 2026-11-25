@@ -70,13 +70,12 @@
       ]
     },
     {
-      "nom": "L’Usine Digitale",
+      "nom": "Le Monde Informatique",
       "mode": "first",
       "filtre_cyber": true,
       "urls": [
-        "https://www.usine-digitale.fr/cybersecurite/rss",
-        "https://www.usine-digitale.fr/rss",
-        "https://www.usine-digitale.fr/rss.xml"
+        "https://www.lemondeinformatique.fr/flux/cybersecurite-conformite.xml",
+        "https://www.lemondeinformatique.fr/rss.xml"
       ]
     },
     {
