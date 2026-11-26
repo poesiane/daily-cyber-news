@@ -1,8 +1,21 @@
 {
   "notions": [
-    {"date": "2026-11-24", "titre": "Living off the Land (LotL)"},
-    {"date": "2026-11-25", "titre": "Honeytoken (jeton piège)"},
-    {"date": "2026-11-25", "titre": "Shimcache (Application Compatibility Cache)"}
+    {
+      "date": "2026-11-24",
+      "titre": "Living off the Land (LotL)"
+    },
+    {
+      "date": "2026-11-25",
+      "titre": "Honeytoken (jeton piège)"
+    },
+    {
+      "date": "2026-11-25",
+      "titre": "Shimcache (Application Compatibility Cache)"
+    },
+    {
+      "date": "2026-11-26",
+      "titre": "Model Context Protocol (MCP)"
+    }
   ],
   "reflexions": [
     {
@@ -19,10 +32,19 @@
       "date": "2026-11-25",
       "titre": "L'informatique quantique condamne-t-elle le secret des données d'aujourd'hui ?",
       "label": "Cryptographie post-quantique et confidentialité à long terme"
+    },
+    {
+      "date": "2026-11-26",
+      "titre": "Quand l'automatisation offensive redéfinit-elle la légitime défense numérique ?",
+      "label": "automatisation de la défense et riposte autonome"
     }
   ],
   "news": [
-    {"date": "2026-11-24", "titre": "La Commission européenne cyberattaquée", "url": ""},
+    {
+      "date": "2026-11-24",
+      "titre": "La Commission européenne cyberattaquée",
+      "url": ""
+    },
     {
       "date": "2026-11-25",
       "titre": "Intrusion au CHU de Bordeaux par ScarlettGroup",
@@ -37,6 +59,21 @@
       "date": "2026-11-25",
       "titre": "Vol de données bancaires à la DGAC",
       "url": "https://www.cyberattaque.org/laviation-civile-dgac-piratee-des-donnees-bancaires-voles-sur-un-site-de-paiement-de-letat/"
+    },
+    {
+      "date": "2026-11-26",
+      "titre": "Propagation du framework offensif Artex piloté par IA",
+      "url": "https://www.lemondeinformatique.fr/cybersecurite-conformite/artex-les-cyberattaquants-intensifient-l-utilisation-d-agents-ia-offensifs"
+    },
+    {
+      "date": "2026-11-26",
+      "titre": "Le groupe Qilin revendique une cyberattaque contre Ipsos",
+      "url": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-contre-ipsos-le-groupe-qilin-revendique-un-vol-de-donnees-sensibles"
+    },
+    {
+      "date": "2026-11-26",
+      "titre": "Intrusion chez 1Password via un compte GitHub",
+      "url": "https://www.lemondeinformatique.fr/cybersecurite-conformite/1password-victime-d-une-intrusion-via-github"
     }
   ]
 }
