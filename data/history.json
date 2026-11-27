@@ -15,6 +15,10 @@
     {
       "date": "2026-11-26",
       "titre": "Model Context Protocol (MCP)"
+    },
+    {
+      "date": "2026-11-27",
+      "titre": "USN Journal (Update Sequence Number Journal)"
     }
   ],
   "reflexions": [
@@ -37,6 +41,11 @@
       "date": "2026-11-26",
       "titre": "Quand l'automatisation offensive redéfinit-elle la légitime défense numérique ?",
       "label": "automatisation de la défense et riposte autonome"
+    },
+    {
+      "date": "2026-11-27",
+      "titre": "Le chiffrement inviolable nuit-il au bien commun ?",
+      "label": "Chiffrement d'État et compromis de souveraineté"
     }
   ],
   "news": [
@@ -74,6 +83,21 @@
       "date": "2026-11-26",
       "titre": "Intrusion chez 1Password via un compte GitHub",
       "url": "https://www.lemondeinformatique.fr/cybersecurite-conformite/1password-victime-d-une-intrusion-via-github"
+    },
+    {
+      "date": "2026-11-27",
+      "titre": "Cyberattaque contre l'Agence France-Presse",
+      "url": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-contre-l-afp-la-plateforme-afp-forum-mise-hors-ligne"
+    },
+    {
+      "date": "2026-11-27",
+      "titre": "Intrusion chez l'éditeur SAP via des jetons d'accès volés",
+      "url": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-chez-sap-des-soupcons-d-acces-au-code-source-sur-github"
+    },
+    {
+      "date": "2026-11-27",
+      "titre": "Faille critique d'élévation de privilèges dans le noyau Linux",
+      "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/"
     }
   ]
 }
