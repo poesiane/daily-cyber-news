@@ -2,12 +2,19 @@ name: Daily Cyber News
 
 on:
   schedule:
-    # GitHub travaille en UTC. Deux horaires pour couvrir l'heure d'hiver et l'heure d'été :
-    #  - 04h07 UTC = 05h07 Paris (hiver) / 06h07 Paris (été)  -> génération principale
-    #  - 05h07 UTC = 06h07 Paris (hiver) / 07h07 Paris (été)  -> rattrapage si le premier a échoué
-    # (le script ne refait rien si l'édition du jour existe déjà)
+    # GitHub travaille en UTC et retarde (voire saute) parfois les déclenchements programmés.
+    # On programme donc plusieurs essais rapprochés : le premier qui démarre génère la page,
+    # les suivants ne font rien (le script s'arrête si l'édition du jour existe déjà).
+    #   03h47 UTC = 4h47 Paris (hiver) / 5h47 (été)
+    #   04h07 UTC = 5h07 Paris (hiver) / 6h07 (été)
+    #   04h37 UTC = 5h37 Paris (hiver) / 6h37 (été)
+    #   05h07 UTC = 6h07 Paris (hiver) / 7h07 (été)
+    #   05h37 UTC = 6h37 Paris (hiver) / 7h37 (été)
+    - cron: "47 3 * * *"
     - cron: "7 4 * * *"
+    - cron: "37 4 * * *"
     - cron: "7 5 * * *"
+    - cron: "37 5 * * *"
   workflow_dispatch:
     inputs:
       force:
